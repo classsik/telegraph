@@ -1,0 +1,357 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    max-width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 100%;
+}
+
+.header__logo span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FF0043;
+}
+
+.header__link {
+    padding: 15px 20px;
+    display: block;
+    background-color: #FF0043;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    max-width: 1245px;
+    margin: 0 auto;
+    position: relative;
+    right: -50px;
+    margin-bottom: 100px;
+}
+
+.cta__left,
+.cta__right {
+    flex: 1;
+}
+
+.cta__left {
+    margin-right: 40px;
+}
+
+.cta__image {
+    width: 655px;
+    height: 604px;
+}
+
+.cta__title {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 85px;
+    color: #00194A;
+    margin-bottom: 20px;
+}
+
+.cta__subtitle {
+    font-weight: 300;
+    color: #00194A;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.cta__link {
+    display: inline-block;
+    padding: 20px 50px;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: #FF0043;
+    border-radius: 50px;
+}
+
+.devices {
+    display: flex;
+    max-width: 1140px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.devices__card {
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+    padding: 30px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.devices__card-icon {
+    height: 48px;
+    width: auto;
+    margin-right: 18px;
+}
+
+.devices__card-header {
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.devices__card-title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #00194A;
+    margin-bottom: 15px;
+}
+
+.devices__card-subtitle {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #00194A;
+    margin-bottom: 20px;
+}
+
+.devices__card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.devices__card-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #BFC5D1;
+}
+
+.devices__card-download {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.messaging {
+    display: flex;
+    align-items: center;
+    max-width: 1157px;
+    margin: 0 auto;
+    position: relative;
+    right: 90px;
+    margin-bottom: 100px;
+}
+
+.messaging__title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #00194A;
+    margin-bottom: 30px;
+}
+
+.messaging__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #00194A;
+    margin-bottom: 30px;
+}
+
+.sharing {
+    display: flex;
+    align-items: center;
+    max-width: 1127px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.sharing__left,
+.sharing__right {
+    flex: 1;
+}
+
+.sharing__left {
+    margin-right: 100px;
+}
+
+.sharing__right {
+    display: flex;
+    align-items: center;
+}
+
+.sharing__title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #00194A;
+    margin-bottom: 30px;
+}
+
+.sharing__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #00194A;
+    margin-bottom: 30px;
+}
+
+.sharing__card {
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    align-items: flex-start;
+    width: 265px;
+}
+
+.sharing__column {
+    margin-right: 30px;
+}
+
+.sharing__column .sharing__card:first-child {
+    margin-bottom: 30px;
+}
+
+.sharing__card-icon {
+    margin-bottom: 26px;
+}
+
+.sharing__card-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #00194A;
+    margin-bottom: 15px;
+}
+
+.sharing__card-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    color: #00194A;
+}
+
+.groups {
+    display: flex;
+    align-items: center;
+    max-width: 1058px;
+    margin: 0 auto;
+    position: relative;
+    right: 40px;
+    margin-bottom: 100px;
+}
+
+.groups__right {
+    margin-left: 50px;
+}
+
+.groups__title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #00194A;
+    margin-bottom: 30px;
+}
+
+.groups__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #00194A;
+}
+
+.contact {
+    margin-bottom: 80px;
+}
+
+.contact__inner {
+    max-width: 1140px;
+    margin: 0 auto;
+    background: #00194A;
+    border-radius: 25px;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.contact__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+    max-width: 580px;
+}
+
+.contact__link {
+    padding: 20px 50px;
+    border-radius: 50px;
+    background-color: #FF0043;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.footer__copytight {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #00194A;
+}
+
+.footer__menu {
+    list-style: none;
+    display: flex;
+}
+
+.footer__menu-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.footer__menu-item a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #00194A;
+}
